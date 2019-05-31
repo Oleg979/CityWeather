@@ -4,7 +4,6 @@ import {
   Text,
   TouchableHighlight,
   StatusBar,
-  FlatList,
   StyleSheet,
   Platform,
   ImageBackground,
@@ -12,7 +11,7 @@ import {
   ScrollView
 } from "react-native";
 import { connect } from "react-redux";
-import { changeCity, pushToHistory } from "./actions";
+import { changeCity } from "./actions";
 
 const ListItem = ({ text, press }) => (
   <View>
